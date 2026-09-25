@@ -1,0 +1,15 @@
+{
+    "avg_detection_time": 0.037427541514237724,
+    "avg_alignment_time": 0.0,
+    "avg_embedding_time": 0.7479447900056839,
+    "avg_similarity_time": 0.0005022876660029093,
+    "avg_pipeline_time": 1.5757895506223043,
+    "median_time": 1.6469532251358032,
+    "min_time": 0.7453944683074951,
+    "max_time": 4.370086193084717,
+    "std_dev_time": 0.5175451833108465,
+    "percentile_95_time": 2.5675675272941594,
+    "percentile_99_time": 3.1411129927635195,
+    "images_per_second": 5.073017958304373,
+    "pairs_per_second": 2.5365089791521864
+}

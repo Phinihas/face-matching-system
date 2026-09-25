@@ -1,0 +1,31 @@
+[project]
+name = "face-matching"
+version = "0.1.0"
+description = "Face matching Application"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=46.0.2",
+    "face-alignment==1.4.1",
+    "fastapi==0.116.1",
+    "gdown==5.2.0",
+    "opentelemetry-api>=1.38.0",
+    "opentelemetry-exporter-otlp>=1.38.0",
+    "opentelemetry-instrumentation-fastapi>=0.59b0",
+    "opentelemetry-sdk>=1.38.0",
+    "prometheus-fastapi-instrumentator>=7.1.0",
+    "psutil>=7.1.0",
+    "pymysql>=1.1.2",
+    "python-multipart>=0.0.20",
+    "pytorch-lightning==2.5.3",
+    "opencv-python>=4.8.0",
+    "qdrant-client>=1.15.1",
+    "sqlalchemy>=2.0.43",
+    "torch==2.8.0",
+    "uvicorn>=0.37.0",
+    "dotenv>=0.9.9",
+    "scikit-learn>=1.9.0",
+    "matplotlib>=3.11.1",
+    "seaborn>=0.13.2",
+    "pandas>=3.0.5",
+]

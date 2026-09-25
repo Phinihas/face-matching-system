@@ -1,0 +1,2 @@
+accuracy,precision,recall,specificity,sensitivity,f1_score,balanced_accuracy,roc_auc,average_precision,equal_error_rate,false_acceptance_rate,false_rejection_rate,true_positive,true_negative,false_positive,false_negative,matthews_correlation,cohen_kappa
+0.9983333333333333,1.0,0.9966666666666667,1.0,0.9966666666666667,0.998330550918197,0.9983333333333333,0.9986468888888889,0.9991092713205978,0.004,0.0,0.0033333333333333335,2990,3000,0,10,0.9966722037498461,0.9966666666666667

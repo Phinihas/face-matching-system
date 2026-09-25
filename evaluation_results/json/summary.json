@@ -1,0 +1,51 @@
+{
+    "total_pairs": 6000,
+    "successful_pairs": 6000,
+    "failed_pairs": 0,
+    "metrics": {
+        "accuracy": 0.9983333333333333,
+        "precision": 1.0,
+        "recall": 0.9966666666666667,
+        "specificity": 1.0,
+        "sensitivity": 0.9966666666666667,
+        "f1_score": 0.998330550918197,
+        "balanced_accuracy": 0.9983333333333333,
+        "roc_auc": 0.9986468888888889,
+        "average_precision": 0.9991092713205978,
+        "equal_error_rate": 0.004,
+        "false_acceptance_rate": 0.0,
+        "false_rejection_rate": 0.0033333333333333335,
+        "true_positive": 2990,
+        "true_negative": 3000,
+        "false_positive": 0,
+        "false_negative": 10,
+        "matthews_correlation": 0.9966722037498461,
+        "cohen_kappa": 0.9966666666666667
+    },
+    "benchmark": {
+        "avg_detection_time": 0.037427541514237724,
+        "avg_alignment_time": 0.0,
+        "avg_embedding_time": 0.7479447900056839,
+        "avg_similarity_time": 0.0005022876660029093,
+        "avg_pipeline_time": 1.5757895506223043,
+        "median_time": 1.6469532251358032,
+        "min_time": 0.7453944683074951,
+        "max_time": 4.370086193084717,
+        "std_dev_time": 0.5175451833108465,
+        "percentile_95_time": 2.5675675272941594,
+        "percentile_99_time": 3.1411129927635195,
+        "images_per_second": 5.073017958304373,
+        "pairs_per_second": 2.5365089791521864
+    },
+    "system": {
+        "avg_cpu_usage": 71.96,
+        "peak_cpu_usage": 100.0,
+        "avg_memory_usage": 13002.6,
+        "peak_memory_usage": 13558.25,
+        "disk_read_bytes": 1244254208,
+        "disk_write_bytes": 1062592512
+    },
+    "optimal_threshold_accuracy": 0.205,
+    "optimal_threshold_f1": 0.205,
+    "optimal_threshold_eer": 0.165
+}

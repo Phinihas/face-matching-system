@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+python-multipart
+opencv-python
+numpy
+qdrant-client
+insightface
+torch
+torchvision
+scikit-image
+tqdm
+Pillow
+python-dotenv

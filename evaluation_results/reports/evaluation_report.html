@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Face Matching Evaluation Report</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+    h1, h2 { color: #333; }
+    table { border-collapse: collapse; width: 50%; margin-bottom: 20px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+</style>
+</head>
+<body>
+
+<h1>Face Matching Evaluation Report</h1>
+
+<h2>1. Overall Summary</h2>
+<ul>
+    <li><b>Total Pairs:</b> 6000</li>
+    <li><b>Successful Pairs:</b> 6000</li>
+    <li><b>Failed Pairs:</b> 0</li>
+</ul>
+
+<h2>2. Key Metrics</h2>
+<table>
+    <tr><th>Metric</th><th>Value</th></tr>
+    <tr><td>Accuracy</td><td>0.9983</td></tr>
+    <tr><td>Precision</td><td>1.0000</td></tr>
+    <tr><td>Recall</td><td>0.9967</td></tr>
+    <tr><td>Specificity</td><td>1.0000</td></tr>
+    <tr><td>F1 Score</td><td>0.9983</td></tr>
+    <tr><td>ROC AUC</td><td>0.9986</td></tr>
+    <tr><td>Equal Error Rate (EER)</td><td>0.0040</td></tr>
+    <tr><td>Optimal Threshold (Accuracy)</td><td>0.20</td></tr>
+</table>
+
+<h2>3. Performance Benchmark (Latency)</h2>
+<table>
+    <tr><th>Component</th><th>Average Time (ms)</th></tr>
+    <tr><td>Detection</td><td>37.43</td></tr>
+    <tr><td>Alignment</td><td>0.00</td></tr>
+    <tr><td>Embedding</td><td>747.94</td></tr>
+    <tr><td>Similarity</td><td>0.50</td></tr>
+    <tr><td>Total Pipeline</td><td>1575.79</td></tr>
+</table>
+<p><b>Throughput:</b> 2.54 pairs/sec (5.07 images/sec)</p>
+
+<h2>4. System Profile</h2>
+<ul>
+    <li><b>Average CPU Usage:</b> 71.96%</li>
+    <li><b>Peak CPU Usage:</b> 100.0%</li>
+    <li><b>Average Memory Usage:</b> 13002.6 MB</li>
+    <li><b>Peak Memory Usage:</b> 13558.25 MB</li>
+</ul>
+
+</body>
+</html>
